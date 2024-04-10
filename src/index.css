@@ -11,3 +11,7 @@
 * {
     font-family: "Google Sans 18pt";
 }
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';

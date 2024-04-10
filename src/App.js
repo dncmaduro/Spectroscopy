@@ -1,9 +1,12 @@
-import './index.css'
+import "./index.css";
+import Page from "./pages/page";
 
 const App = () => {
-  return <>
-    okokok
-  </>
-}
+  return (
+    <>
+      <Page />
+    </>
+  );
+};
 
-export default App
+export default App;
