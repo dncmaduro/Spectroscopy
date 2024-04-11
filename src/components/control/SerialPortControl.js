@@ -24,7 +24,7 @@ const SerialPortControl = (props) => {
               ))}
             </Select>
           </FormControl>
-          <div className="mt-6">
+          <div className="mt-2">
             <Button variant="outlined">Connect</Button>
             <Button variant="outlined">Disconnect</Button>
           </div>

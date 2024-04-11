@@ -10,6 +10,7 @@
 
 * {
     font-family: "Google Sans 18pt";
+    font-size: 0.8rem
 }
 
 @import 'tailwindcss/base';
