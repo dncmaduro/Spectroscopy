@@ -5,6 +5,7 @@ import { Grid } from "@material-ui/core";
 import ProgramControl from "../components/control/ProgramControl";
 import ParameterConfig from "../components/control/ParameterConfig";
 import ShowSweepTimes from "../components/control/ShowSweepTimes";
+import LineChart from "../components/chart/LineChart";
 
 const Page = () => {
   const [port, setPort] = useState();
@@ -35,6 +36,9 @@ const Page = () => {
             sweepTimes={sweepTimes}
             setSweepTimes={setSweepTimes}
           />
+        </Grid>
+        <Grid item xs={8}>
+          <LineChart />
         </Grid>
       </Grid>
     </>
