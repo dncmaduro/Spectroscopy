@@ -6,6 +6,7 @@ import ProgramControl from "../components/control/ProgramControl";
 import ParameterConfig from "../components/control/ParameterConfig";
 import ShowSweepTimes from "../components/control/ShowSweepTimes";
 import LineChart from "../components/chart/LineChart";
+import ResultTable from "../components/table/ResultTable";
 
 const Page = () => {
   const [port, setPort] = useState();
@@ -37,8 +38,11 @@ const Page = () => {
             setSweepTimes={setSweepTimes}
           />
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={7}>
           <LineChart />
+        </Grid>
+        <Grid item xs={3}>
+          <ResultTable />
         </Grid>
       </Grid>
     </>

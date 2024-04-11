@@ -82,7 +82,13 @@ const LineChart = () => {
     ],
   });
 
-  return <Line options={options} data={data} />;
+  return (
+    <>
+      <div className="mx-4">
+        <Line options={options} data={data} />;
+      </div>
+    </>
+  );
 };
 
 export default LineChart;
